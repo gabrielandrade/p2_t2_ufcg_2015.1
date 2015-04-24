@@ -10,8 +10,8 @@ public class Disciplina {
 		this.nome = nome;
 		this.creditos = creditos;
 		//inicializa a turma. Note que a quantidade de 
-		//    alunos esta 'transparente', ou seja, nao 
-		//    importa porque quem controla a quantidade eh a Turma. 
+		//    alunos esta 'transparente', ou seja, 
+		//    quem controla a quantidade eh a Turma. 
 		turma = new Turma(); 
 	}
 
@@ -44,6 +44,10 @@ public class Disciplina {
 		this.creditos = creditos;
 	}
 
+	/**
+	 * Retorna a String com as informacoes da disciplina.
+	 * @return A representacao da Disciplina em String.
+	 */
 	public String imprimeAlunos(){
 		final String FIM_DE_LINHA = System.getProperty("line.separator");
 		String disciplinaString = "Disciplina: "+this.nome+FIM_DE_LINHA;		
