@@ -47,7 +47,6 @@ public class Cadastro {
 		int nascimentoPessoa = 0;
 		
 		Scanner ler = new Scanner(System.in);
-		boolean continueALer = true;
 		
 		int escolha = 0;
 		do{			
