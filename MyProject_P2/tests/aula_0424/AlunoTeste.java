@@ -15,7 +15,7 @@ public class AlunoTeste {
 		try {
 			sc = new Scanner(System.in);
 			
-			Aluno aluno = new Aluno("Tainah","");
+			Aluno aluno = new Aluno("Tainah","","Computacao");
 			
 		} catch (Exception e) {
 			
@@ -32,13 +32,13 @@ public class AlunoTeste {
 		try{
 			//AQUI OCORRE A EXCEPTION
 		
-			Aluno aluno = new Aluno("Italo","1");
-			Aluno outroAluno = new Aluno("Gerson","2");
-			Aluno gabriela = new Aluno(nomeTeste1,"3");
+			Aluno aluno = new Aluno("Italo","1","Computacao");
+			Aluno outroAluno = new Aluno("Gerson","2","Computacao");
+			Aluno gabriela = new Aluno(nomeTeste1,"3","Computacao");
 			
-			Aluno tainah = new Aluno("", "5");
+			Aluno tainah = new Aluno("", "5","Computacao");
 			
-			Aluno raquel = new Aluno("Raquel", "4");
+			Aluno raquel = new Aluno("Raquel", "4","Computacao");
 			
 			Assert.assertEquals("Italo", aluno.getNome());
 			Assert.assertEquals("Gerson", outroAluno.getNome());
@@ -59,9 +59,6 @@ public class AlunoTeste {
 			System.out.println(e.getMessage());
 			
 		}
-		
-		
-		
 	}
 	
 }
