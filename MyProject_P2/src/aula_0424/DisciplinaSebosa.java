@@ -1,7 +1,7 @@
 package aula_0424;
 
 
-public class Disciplina_Seboso {
+public class DisciplinaSebosa {
 
 	private String nome;
 	private int creditos;
@@ -10,7 +10,7 @@ public class Disciplina_Seboso {
 	private Aluno[] alunos;
 	private int contador = 0;
 	
-	public Disciplina_Seboso(String nome, int creditos, int quantidadeDeAlunos) {
+	public DisciplinaSebosa(String nome, int creditos, int quantidadeDeAlunos) {
 		this.nome = nome;
 		this.creditos = creditos;
 		this.quantidadeDeAlunos = quantidadeDeAlunos;
