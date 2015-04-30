@@ -11,6 +11,7 @@ public class AlunoTeste {
 	private String nomeTeste1 = "Volney";
 	
 	public static void main(String[] args) {
+		
 		Scanner sc = null;
 		try {
 			sc = new Scanner(System.in);

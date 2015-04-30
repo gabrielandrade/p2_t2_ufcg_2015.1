@@ -62,4 +62,23 @@ public class Aluno {
 		alunoString += ". Nota: "+nota;		
 		return alunoString;
 	}
+	
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result
+				+ ((matricula == null) ? 0 : matricula.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Aluno){
+			Aluno outroAluno = (Aluno)obj;//<-- isso é um cast!
+			return	this.getMatricula().equals(outroAluno.getMatricula());
+		}
+		return false;
+	}
 }
