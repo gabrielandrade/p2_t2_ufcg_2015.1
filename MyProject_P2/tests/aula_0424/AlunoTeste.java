@@ -14,8 +14,7 @@ public class AlunoTeste {
 		
 		Scanner sc = null;
 		try {
-			sc = new Scanner(System.in);
-			
+			sc = new Scanner(System.in);			
 			Aluno aluno = new Aluno("Tainah","","Computacao");
 			
 		} catch (Exception e) {

@@ -1,4 +1,4 @@
-package lab03;
+package exercicios.lab03;
 
 import java.text.DecimalFormat;
 
