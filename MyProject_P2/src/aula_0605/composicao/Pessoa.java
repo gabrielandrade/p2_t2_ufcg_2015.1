@@ -5,11 +5,6 @@ public class Pessoa {
 	private String nome;
 	private String email;
 	
-	/**
-	 * Esta classe é o Construtor de uma Pessoa.
-	 * @param nome O nome da pessoa
-	 * @param email  
-	 */
 	public Pessoa(String nome, String email) {
 		this.nome = nome;
 		this.email = email;
